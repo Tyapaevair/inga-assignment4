@@ -37,7 +37,7 @@ public class StudentApplication {
 					 } else if(o1 == null) {
 						  return 1;
 					 }
-					 return o1.getGrade().compareTo(o2.getGrade());
+					 return o2.getGrade().compareTo(o1.getGrade());
 				}
 
 		  });
@@ -51,7 +51,7 @@ public class StudentApplication {
 					 } else if(o1 == null) {
 						  return 1;
 					 }
-					 return o1.getGrade().compareTo(o2.getGrade());
+					 return o2.getGrade().compareTo(o1.getGrade());
 				}
 
 		  });
@@ -65,7 +65,7 @@ public class StudentApplication {
 					 } else if(o1 == null) {
 						  return 1;
 					 }
-					 return o1.getGrade().compareTo(o2.getGrade());
+					 return o2.getGrade().compareTo(o1.getGrade());
 				}
 
 		  });
